@@ -8,6 +8,13 @@ import { AdminComponent } from './admin/admin.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTableModule} from '@angular/material/table';
 import {MatIconModule} from '@angular/material/icon';
+import { Route, RouterModule } from '@angular/router';
+
+const routes: Route[] = [
+  { path: "login", component: LoginComponent },
+  { path: "admin", component: AdminComponent },
+  { path: "**", redirectTo: "admin" }
+];
 
 @NgModule({
   declarations: [
@@ -17,10 +24,10 @@ import {MatIconModule} from '@angular/material/icon';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
     MatTableModule,
-    MatIconModule
+    MatIconModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
