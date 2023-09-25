@@ -1,0 +1,22 @@
+.componentlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #DEDEDE;
+}
+
+.login-form {
+    border: 1px solid black;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+.onprocess{
+    width: 94%;
+    background-color: #444444;
+    border: #444444;
+}
+.boxonprocess{
+    justify-content: center;
+}
