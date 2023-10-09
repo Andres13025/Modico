@@ -9,10 +9,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTableModule} from '@angular/material/table';
 import {MatIconModule} from '@angular/material/icon';
 import { Route, RouterModule } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { ProductosComponent } from './productos/productos.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { OfertasComponent } from './ofertas/ofertas.component';
+import { HttpClientModule } from '@angular/common/http';
 
 const routes: Route[] = [
+  { path: '', component: HomeComponent },
   { path: "login", component: LoginComponent },
   { path: "admin", component: AdminComponent },
+  { path: "productos", component: ProductosComponent },
   { path: "**", redirectTo: "admin" }
 ];
 
@@ -20,13 +27,19 @@ const routes: Route[] = [
   declarations: [
     AppComponent,
     LoginComponent,
-    AdminComponent
+    AdminComponent,
+    HomeComponent,
+    ProductosComponent,
+    OfertasComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatTableModule,
     MatIconModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule, 
     RouterModule.forRoot(routes)
   ],
   providers: [],
