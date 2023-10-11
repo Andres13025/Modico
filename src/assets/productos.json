@@ -1,0 +1,84 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Lechuga",
+        "precio": "$4.800"
+      },
+      {
+        "id": 2,
+        "nombre": "Aguacate",
+        "precio": "$6.000"
+      },
+      {
+        "id": 3,
+        "nombre": "Tomate",
+        "precio": "$5.000"
+      },
+      {
+        "id": 4,
+        "nombre": "Pimientos",
+        "precio": "$4.500"
+      },
+      {
+        "id": 5,
+        "nombre": "Fresas",
+        "precio": "$4.500"
+      },
+      {
+        "id": 6,
+        "nombre": "Arandanos",
+        "precio": "$6.000"
+      },
+      {
+        "id": 7,
+        "nombre": "Sandia",
+        "precio": "$10.000"
+      },
+      {
+        "id": 8,
+        "nombre": "Durazno",
+        "precio": "$6.000"
+      },
+      {
+        "id": 9,
+        "nombre": "Avena",
+        "precio": "$9.000"
+      },
+      {
+        "id": 10,
+        "nombre": "Quinoa",
+        "precio": "$12.000"
+      },
+      {
+        "id": 11,
+        "nombre": "Semillas de Chia",
+        "precio": "$15.000"
+      },
+      {
+        "id": 12,
+        "nombre": "Almendras",
+        "precio": "$9.500"
+      },
+      {
+        "id": 13,
+        "nombre": "Crema de Maní",
+        "precio": "$20.000"
+      },
+      {
+        "id": 14,
+        "nombre": "Chocolate amargo",
+        "precio": "$11.200"
+      },
+      {
+        "id": 15,
+        "nombre": "Crema de avellanas",
+        "precio": "$25.600"
+      },
+      {
+        "id": 16,
+        "nombre": "Yogurt Griego",
+        "precio": "$16.000"
+      }
+    ]
+  }
