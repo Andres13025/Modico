@@ -1,11 +1,84 @@
-@media (min-width: 768px) {
-    .navbar-brand.abs
-        {
-            position: absolute;
-            width: auto;
-            left: 50%;
-            transform: translateX(-50%);
-            text-align: center;
-        }
-    }
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+   */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li  {
+    display:inline
     
+  }
+  
+  
+  .search-form {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .search-form input[type="text"]
+  {
+    padding: 5px 200px;
+    margin-right: 10px;
+  }
+  
+  .search-form button
+   {
+    padding: 5px 30px;
+  }
+  
+  /* section.productos {
+    background-image: url(Imagenes/shopping-carts-1275480_960_720.jpg);
+    background-size: cover;
+    padding: 300px;
+     
+    
+  }
+   */
+  /* .producto {
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+  } */
+  
+  /* .producto img {
+    width: 100%;
+    height: auto;
+  
+  } */
+  
+  /* footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+  } */
+  
+  /* .der {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+  } */
+  
