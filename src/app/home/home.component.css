@@ -1,23 +1,41 @@
- 
-  header {
+header {
     background-color: #333;
     color: #fff;
-    padding: 20px;
-  }
+    padding: 20px;  
+}
 
-  .search-form input[type="text"]
-  {
-    padding: 5px 200px;
-    margin-right: 10px;
-  }
-  
-  
-  .search-form button
-   {
-    padding: 5px 30px;
-  }
+.search-form {
+  display: inline-block;
+  margin-left: 10px;
+}
 
-  .search-form {
-    display: inline-block;
-    margin-left: 10px;
-  }
+.search-form input[type="text"]
+{
+  padding: 5px 200px;
+  margin-right: 10px;
+}
+
+.search-form button
+ {
+  padding: 5px 30px;
+}
+
+section.productos {
+  background-image: url(../../assets/Imagenes/shopping-carts-1275480_960_720.jpg);
+  background-size: cover;
+  padding: 300px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+.der {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: right;
+}
